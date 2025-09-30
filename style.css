@@ -4,6 +4,7 @@ body, html{
 }
 
 
+
 .roboto-flex-100 {
   font-family: "Roboto Flex", sans-serif;
   font-optical-sizing: auto;
@@ -57,11 +58,22 @@ h1{
     overflow:hidden;
     margin: 0px 20px 200px 0px;
     padding: 100px 20px 20px 30px;
-    background-image:url(./assets/Pizza-Home.jpg);
+     background-image:url(./assets/Pizza-Home.jpg); 
     background-size: cover;
     background-position: center center;
+}
+.footerb{
+  
+   background-image:url(./assets/Pizza-Home.jpg); 
+    background-size: cover bottom;
+    background-position: center center;
+    color: white;
+    margin-top: auto;
 }
 
 .centrato{
     text-align: center;
+}
+.P-centrale{
+  background-color: black;
 }

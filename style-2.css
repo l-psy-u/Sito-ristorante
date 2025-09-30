@@ -1,0 +1,40 @@
+.box{
+    border-style: solid;
+    display: block;
+    /* inline alliniare */
+    /* inline-block */
+    /* width: 300px; */
+    height: 180px;
+    position: static;
+}
+.p1{
+    background-image:url("./assets/pizza7.jpg") ;
+        background-size: cover;
+    background-position: center center;
+}
+
+.p2{
+    background-image: url("./assets/pizza2.jpg");
+        background-size: cover;
+    background-position: center center;
+}
+.p3{
+    background-image: url("./assets/pizza3.webp");
+        background-size: cover;
+    background-position: center center;
+}
+.p4{
+    background-image:url("./assets/pizza4.webp") ;
+        background-size: cover;
+    background-position: center center;
+}
+.p5{
+    background-image: url("./assets/pizza1.jpeg");
+     background-size: cover;
+    background-position: center center;
+}
+.posto{
+    background-image: url("./assets/posto.png");
+    background-size: cover;
+    background-position: center center;
+}
