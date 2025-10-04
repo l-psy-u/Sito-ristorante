@@ -1,6 +1,16 @@
+/* *{
+  border: solid red 2px;
+} */
 body, html{
     margin: 0px;
     padding: 0px;
+  
+
+}
+body{
+   background-image:url(./assets/Pizza-Home.jpg); 
+   background-size:cover ;
+   background-position: center;
 }
 
 
@@ -24,24 +34,10 @@ body, html{
     "YTUC" 712;
 }
 
-
-.roboto-flex-400 {
-  font-family: "Roboto Flex", sans-serif;
-  font-optical-sizing: auto;
+.anton-regular {
+  font-family: "Anton", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "slnt" 0,
-    "wdth" 100,
-    "GRAD" 0,
-    "XOPQ" 96,
-    "XTRA" 468,
-    "YOPQ" 79,
-    "YTAS" 750,
-    "YTDE" -203,
-    "YTFI" 738,
-    "YTLC" 514,
-    "YTUC" 712;
 }
 
 .condiment-regular {
@@ -51,24 +47,15 @@ body, html{
 }
 
 h1{
-    background-color: rgb(236, 215, 189);
     width: 100%;
     min-width: 50px;
     height: 100px;
     overflow:hidden;
     margin: 0px 20px 200px 0px;
     padding: 100px 20px 20px 30px;
-     background-image:url(./assets/Pizza-Home.jpg); 
+     /* background-image:url(./assets/Pizza-Home.jpg);  */
     background-size: cover;
     background-position: center center;
-}
-.footerb{
-  
-   background-image:url(./assets/Pizza-Home.jpg); 
-    background-size: cover bottom;
-    background-position: center center;
-    color: white;
-    margin-top: auto;
 }
 
 .centrato{
