@@ -133,3 +133,9 @@ header nav{
   height: 800px;
 
 }
+.maps-cent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
